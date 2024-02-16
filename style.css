@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(69, 69, 69);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
