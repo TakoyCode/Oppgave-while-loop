@@ -5,8 +5,6 @@ kan eventuelt også console.log() tallene for hver runde
 OBS: Nettleseren er ikke glad i å oppdatere view mens i en while-loop! */
 
 //Modell
-let number1 = 1;
-let number2 = 2;
 let text = '';
 
 //View
@@ -27,8 +25,8 @@ function ResetRandomNumbers() {
 
 //Controller
 function generate2RandomNumbers() {
-    number1 = 1;
-    number2 = 2;
+    let number1 = 1;
+    let number2 = 2;
 
     while (number1 != number2) {
         number1 = Math.ceil(Math.random() * 10);
